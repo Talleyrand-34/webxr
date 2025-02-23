@@ -1,0 +1,21 @@
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "443:443"
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+      - ./frontend/certs:/etc/nginx/certs
+      - ./frontend/nginx.conf:/etc/nginx/nginx.conf:ro
+    restart: always
+
+
+  backend:
+    image: python:3.12
+    working_dir: /app/src
+    ports:
+      - "8000:8000"
+    command: sh -c "pip install -r ../requirements.txt && python3 -m gunicorn -w 2 --certfile=/etc/nginx/certs/your_cert.pem --keyfile=/etc/nginx/certs/your_key.pem -b 0.0.0.0:8000 armigo:app"
+    volumes:
+      - ./backend:/app
+      - ./frontend/certs:/etc/nginx/certs:ro
