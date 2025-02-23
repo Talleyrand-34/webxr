@@ -1,0 +1,67 @@
+Analiza la siguiente frase en función de los modelos de personalidad Big Five (OCEAN) y Eneagrama. Evalúa qué rasgos predominan en la expresión y qué patrones de personalidad refleja.
+Evaluación Big Five (OCEAN)
+
+Responde a cada punto considerando lo que sugiere la frase:
+
+    Neuroticismo: ¿La frase expresa ansiedad, inseguridad o preocupación? ¿O muestra estabilidad emocional y control?
+    Apertura a la experiencia: ¿Refleja curiosidad, creatividad y deseo de nuevas experiencias, o más bien preferencia por la rutina y lo conocido?
+    Responsabilidad: ¿Demuestra disciplina, compromiso y organización, o más bien una tendencia a la espontaneidad y flexibilidad?
+    Extroversión: ¿Indica energía, sociabilidad y entusiasmo por interactuar, o una actitud más reservada e introspectiva?
+    Amabilidad: ¿Muestra empatía, cooperación y calidez, o una postura más independiente y racional?
+
+Evaluación Eneagrama
+
+¿Qué Eneatipo refleja la frase? Considera los 9 tipos y sus motivaciones principales:
+
+    El Perfeccionista: Enfocado en la disciplina, el deber y la mejora personal. Busca hacer lo correcto y evitar errores.
+    El Ayudador: Expresa cuidado por los demás, deseo de ayudar y recibir amor a través de la entrega.
+    El Triunfador: Refleja ambición, búsqueda de éxito y validación a través de logros.
+    El Individualista: Profundiza en emociones, identidad y autenticidad. Puede expresar melancolía o deseo de autoexpresión.
+    El Investigador: Se enfoca en el conocimiento, el análisis y la autosuficiencia. Prefiere la observación a la participación.
+    El Leal: Expresa preocupación por la seguridad, el compromiso y la estabilidad. Puede reflejar dudas o necesidad de apoyo.
+    El Entusiasta: Muestra deseo de aventura, novedad y placer. Evita el dolor mediante la diversión y el movimiento constante.
+    El Desafiante: Expresa confianza, liderazgo y necesidad de control. Busca independencia y justicia.
+    El Pacificador: Refleja armonía, deseo de evitar conflictos y una actitud relajada y adaptable.
+
+¿La frase muestra una conexión con más de un Eneatipo?
+
+    ¿Indica una evolución en la personalidad, combinando rasgos de distintos tipos?
+    ¿Sigue un patrón típico de su Eneatipo dominante o hay señales de cambio?
+
+Ejemplo de Uso del Prompt
+
+Frase: 'Me encanta viajar y conocer gente nueva, pero últimamente quiero enfocarme en construir algo estable.'
+
+Análisis:
+
+    ***Evaluación Big Five (OCEAN)***
+
+    **Neuroticismo:** La frase sugiere un nivel moderado a alto de neuroticismo. La exclamación "¡Cóño!" indica frustración, sorpresa o irritación, lo que apunta a una cierta inestabilidad emocional. La referencia a "interrogaciones" también puede sugerir confusión o ansiedad ante una situación.
+    **Apertura a la experiencia:** La frase no revela mucho sobre la apertura a la experiencia. Podría interpretarse como una reacción a algo inesperado o inusual, lo que podría indicar cierta flexibilidad, pero no es concluyente.
+    **Responsabilidad:** La frase no proporciona mucha información sobre la responsabilidad. La reacción abrupta podría sugerir una falta de control o planificación, pero es difícil de determinar con certeza.
+    **Extroversión:** La frase sugiere una tendencia a la extroversión. La persona está claramente involucrada en una conversación o narración, y la exclamación "¡Cóño!" indica una expresión emocional abierta.
+    **Amabilidad:** La frase no es particularmente amable. La exclamación y la posible frustración sugieren una falta de paciencia o empatía en ese momento.
+
+    ***Evaluación Eneagrama***
+
+    **Posibles Eneatipos:**
+
+    *   **Eneatipo 8 (El Desafiante):** La exclamación "¡Cóño!" puede reflejar una reacción fuerte y una necesidad de expresar su frustración o desacuerdo. Los Ocho tienden a ser directos y a veces confrontacionales.
+    *   **Eneatipo 6 (El Leal):** La frase podría indicar una reacción de sorpresa o incredulidad ante algo que se considera una amenaza o un desafío a la seguridad. La persona podría estar buscando claridad o apoyo.
+    *   **Eneatipo 7 (El Entusiasta):** La exclamación podría ser una reacción exagerada a una situación inesperada, buscando evitar el aburrimiento o la incomodidad.
+
+    **Justificación:**
+
+    *   **Eneatipo 8:** La frase muestra una reacción fuerte y directa, lo que es típico de los Ocho. La persona no se guarda sus emociones y expresa su frustración abiertamente.
+    *   **Eneatipo 6:** La frase podría indicar una reacción de sorpresa o incredulidad ante algo que se considera una amenaza o un desafío a la seguridad. La persona podría estar buscando claridad o apoyo.
+    *   **Eneatipo 7:** La exclamación podría ser una reacción exagerada a una situación inesperada, buscando evitar el aburrimiento o la incomodidad.
+
+    **Conexión con más de un Eneatipo:** Es posible que la frase muestre una combinación de rasgos. Por ejemplo, la persona podría ser un Ocho con una ala en Siete, lo que explicaría la reacción fuerte y la búsqueda de emoción.
+
+    **Evolución o patrón típico:** La frase no proporciona suficiente información para determinar si hay una evolución en la personalidad. Sin embargo, la reacción fuerte y directa sugiere un patrón típico de un Eneatipo 8.
+
+    ***Conclusión:***
+
+    La frase sugiere una persona con un nivel moderado a alto de neuroticismo, una tendencia a la extroversión y una falta de amabilidad en ese momento. En términos del Eneagrama, la frase podría reflejar rasgos de un Eneatipo 8 (El Desafiante), 6 (El Leal) o 7 (El Entusiasta), con una posible conexión con más de un tipo. La reacción fuerte y directa sugiere un patrón típico de un Eneatipo 8.
+
+Frase a Evaluar: '

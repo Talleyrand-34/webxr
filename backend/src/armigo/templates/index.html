@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Recorder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🎙️ Audio Recorder</h1>
+    <button id="startBtn">Start Recording</button>
+    <button id="stopBtn" disabled>Stop Recording</button>
+    <a id="downloadLink" style="display:none;" download="recording.wav">Download Recording</a>
+
+    <script>
+        let mediaRecorder;
+        let audioChunks = [];
+
+        const startBtn = document.getElementById("startBtn");
+        const stopBtn = document.getElementById("stopBtn");
+        const downloadLink = document.getElementById("downloadLink");
+
+        startBtn.addEventListener("click", async () => {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                mediaRecorder = new MediaRecorder(stream);
+
+                mediaRecorder.ondataavailable = (event) => {
+                    if (event.data.size > 0) audioChunks.push(event.data);
+                };
+
+                mediaRecorder.onstop = () => {
+                    const audioBlob = new Blob(audioChunks, { type: "audio/x-aac" });
+                    downloadLink.href = URL.createObjectURL(audioBlob);
+                    downloadLink.style.display = "inline";
+                    downloadLink.textContent = "Download Recording";
+                    audioChunks = []; // Reset for next recording
+
+                    // Send to localhost:5000
+                    const fd = new FormData();
+                    fd.append("file", audioBlob, "recording.aac");
+
+                    fetch("/upload", { method: "POST", body: fd })
+                    .then((response) => response.json())
+                    .then((data) => console.log("Upload successful:", data))
+                    .catch((err) => console.error("Error uploading audio:", err));
+                };
+
+                mediaRecorder.start();
+                startBtn.disabled = true;
+                stopBtn.disabled = false;
+            } catch (err) {
+                alert("Error accessing microphone: " + err.message);
+            }
+        });
+
+        stopBtn.addEventListener("click", () => {
+            if (mediaRecorder && mediaRecorder.state !== "inactive") {
+                mediaRecorder.stop();
+                startBtn.disabled = false;
+                stopBtn.disabled = true;
+
+                // Releasing the microphone
+                mediaRecorder.stream.getTracks().forEach((track) => track.stop());
+            }
+        });
+    </script>
+</body>
+
+</html>

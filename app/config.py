@@ -1,2 +1,0 @@
-UPLOADS_DIR_NAME = 'uploads'
-ADMITED_EXTENSIONS = {'wav'}

@@ -1,0 +1,7 @@
+[Analisis frase previa]
+La frase sugiere una persona con un alto nivel de neuroticismo, baja apertura a la experiencia, baja responsabilidad y baja amabilidad. En términos del Eneagrama, la frase podría reflejar rasgos de un Eneatipo 8 (El Desafiante), 9 (El Pacificador) o 4 (El Individualista), con una posible conexión con más de un tipo. La expresión directa de frustración sugiere un patrón típico de un Eneatipo 8, mientras que la expresión pasivo-agresiva podría indicar un patrón típico de un Eneatipo 9 en estrés.
+[Objetivo]
+Establecer conversación cercana, respetuosa y efectiva con el usuario dado el analisis previo en una única linea.
+[Diálogo]
+Usuario:  cualquier mierda
+IA: Entiendo que estás frustrado, ¿hay algo en particular que te molesta y en lo que pueda ayudarte?
